@@ -1,0 +1,724 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="产品经理," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="做事儿之前最好不要立 flag，这样不好。 Julie Zhuo，是 facebook 的产品设计 VP，也是 Medium 上十分有名的博主。这篇文章也是在 Medium 上收到 6.4 k 赞的文章 — The 4 Stages of 0-&amp;gt;1 Products（https://medium.com/the-year-of-the-looking-glass/the-4-stages-o">
+<meta name="keywords" content="产品经理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="产品从0到1的四个阶段【译】">
+<meta property="og:url" content="http://Youngstack.github.io/2018/01/09/产品从0到1的四个阶段【译】/index.html">
+<meta property="og:site_name" content="积跬步">
+<meta property="og:description" content="做事儿之前最好不要立 flag，这样不好。 Julie Zhuo，是 facebook 的产品设计 VP，也是 Medium 上十分有名的博主。这篇文章也是在 Medium 上收到 6.4 k 赞的文章 — The 4 Stages of 0-&amp;gt;1 Products（https://medium.com/the-year-of-the-looking-glass/the-4-stages-o">
+<meta property="og:updated_time" content="2018-01-10T15:05:14.157Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="产品从0到1的四个阶段【译】">
+<meta name="twitter:description" content="做事儿之前最好不要立 flag，这样不好。 Julie Zhuo，是 facebook 的产品设计 VP，也是 Medium 上十分有名的博主。这篇文章也是在 Medium 上收到 6.4 k 赞的文章 — The 4 Stages of 0-&amp;gt;1 Products（https://medium.com/the-year-of-the-looking-glass/the-4-stages-o">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":true,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://Youngstack.github.io/2018/01/09/产品从0到1的四个阶段【译】/"/>
+
+
+
+
+
+  <title>产品从0到1的四个阶段【译】 | 积跬步</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta custom-logo">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">积跬步</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">每天进步一点点</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://Youngstack.github.io/2018/01/09/产品从0到1的四个阶段【译】/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Youngstack">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="积跬步">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">产品从0到1的四个阶段【译】</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-09T21:46:08+08:00">
+                2018-01-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>做事儿之前最好不要立 flag，这样不好。</p>
+<p><a href="https://medium.com/@joulee?source=post_header_lockup" target="_blank" rel="external">Julie Zhuo</a>，是 facebook 的产品设计 VP，也是 Medium 上十分有名的博主。这篇文章也是在 Medium 上收到 6.4 k 赞的文章 — <em>The 4 Stages of 0-&gt;1 Products</em>（<a href="https://medium.com/the-year-of-the-looking-glass/the-4-stages-of-0-1-products-cdb8236dbf66）。文章定义了从0到1的产品生命周期的四个不同阶段，以及每个阶段所要考虑的问题，发人深思。" target="_blank" rel="external">https://medium.com/the-year-of-the-looking-glass/the-4-stages-of-0-1-products-cdb8236dbf66）。文章定义了从0到1的产品生命周期的四个不同阶段，以及每个阶段所要考虑的问题，发人深思。</a></p>
+<hr>
+<p>问题：在我所做过的工作中，我曾做过已经很成熟的产品，那时我的工作是通过一些迭代的变化来让产品发展的更好。最近我加入了一个新的团队，创造仅仅停留在设计图上的产品。然而我很享受这种没有束缚的感觉，尽管遥望前路让人感觉到害怕。对于从 0 到 1创建产品，你有什么建议呢？</p>
+<p>成功的从 0 到 1 的产品 — 那些为大众创造大量新的需求的产品 — 并不是一蹴而就的。像人一样，产品也会经过生命中不同的阶段。对待已经发展成熟并且用户量成规模的产品和刚起步的产品要使用不同的策略。</p>
+<p>对产品发展不同阶段进行取名划分，了解每一个项目所处的阶段，理解在这个阶段哪些事情是最重要的，你就更有机会去创造对世界造成深远的影响的产品。</p>
+<h3 id="第一阶段：定义用户产出（People-Outcomes）"><a href="#第一阶段：定义用户产出（People-Outcomes）" class="headerlink" title="第一阶段：定义用户产出（People Outcomes）"></a>第一阶段：定义用户产出（People Outcomes）</h3><p>用户产出是设想你所主张的产品取得巨大成功时，你的目标用户的行为，理解，和情绪。在进行设计和开发之前，先以用户所需所想为基础为你的产品进行一个明确的愿景。</p>
+<p>定义正确的用户产出需要：</p>
+<ol>
+<li><p><strong>找到你想要解决的用户难题（People Problem）。</strong>一个用户难题是一个需求，问题或者某个行人都可以清楚表达的机会（不是“留存太低”而是“人们在飞机上感到无聊和不适”。）好的用户问题能找到用户在日常生活中所想做的事情，精准地指出当前解决方案的不足和用户的不满。证实你所找到的问题是你们公司应当关注的真实且正确的问题。什么来帮你辨别这是一个问题？已知的行为？工作背景？研究？还是数据？这只是一个表面问题（“我想通过电话订餐”）或者根源问题？（“我现在就想在这儿吃东西”）</p>
+<p>​</p>
+</li>
+<li><p><strong>定义初始目标用户。</strong>谁最需要你们的产品？对于谁来说这个问题大到足以让他来付出一些什么来解决？理清你的产品功能如何给大量的用户赋能很棒，但是成功的产品是从一小嘬早期用户开始的，让他们喜欢上它，慢慢的扩展到更多的用户，最开始喜欢你们产品的前1000个用户是谁？</p>
+<p>​</p>
+</li>
+<li><p><strong>给用户描述你的产品若成功会带来什么改变。</strong>当你的产品落地以后，用户的行为和观念会有哪些改变？你希望产品的早期用户拥有什么样的心智模型和用例？如果你想要为你的目标用户举办一次市场运动，你如何定位你的产品价值？</p>
+</li>
+</ol>
+<h3 id="第二阶段：让产品与市场匹配"><a href="#第二阶段：让产品与市场匹配" class="headerlink" title="第二阶段：让产品与市场匹配"></a>第二阶段：让产品与市场匹配</h3><p>让产品和市场匹配意味着建立，迭代产品直到它实现了预先设定的用户产出（people outcomes）。这个阶段的关键是<strong>定义好的假设</strong>和<strong>尽快在这些假设上得到决定性的结果</strong>。</p>
+<p>想要高效的进行产品市场匹配需要：</p>
+<ol>
+<li><strong>为目标阶段创造一个聚焦的最小可实现产品（MVP）。</strong>挑选 1000 名将会喜欢上你的产品的用户，设计出你认为他们一定会感兴趣的端对端体验。选择少量的用户意味着在落实产品设计上你有更多的话语权和决定权。你的最小可实现产品一定要是最小的可实现的端对端体验。如果人们对你的产品特征一无所知，不知道使用你们产品的原因和方式，或者觉得很难使用或者有很多bug，你很难得到清晰的结果来验证你的产品假设。同时，不要再差异性上，他们并不会对产品的成功与否起多大作用，比如创造新型的按钮和标签栏。（和那些标准的要素相比）</li>
+<li><strong>定义大胆的成功指标来确保你预期的用户难题。</strong>你的成功目标取决于产品是否如你预期的那样有价值。一个好的范例是“使用功能点 X 的用户留存停留在 30% ”和“使用 X 功能点的用户数比之前提高了 3 倍”。一个反面例子“X 用户使用 X 功能点已经三个月了。”（像那样的体积度量会随着漏斗原理被调高或调低，比如广告业，因此在这个阶段他们没那么重要。）不管项目聚焦在何处，都要考虑留存这个指标，因为它反映了你的产品是否对那些留存用户有着足够多的价值。在这个开始阶段你着眼于一小部分用户，那你也应当通过粗略的估计力求达到目标团体用户的行为，清晰度，积极情绪的阶跃式变化（考虑 2 - 3 倍的分享量而不是 5% 的分享增长）。</li>
+<li><strong>假设你会有所得，不要妄想一鸣惊人。</strong>在这个阶段，你的目标是证实产品服务好了一部分人，或者对于产品假设有了很明确的认识，这都是很好的产出。这种思想大有裨益，原因是：<ul>
+<li><strong>没有扬帆起航并不意味着失败：</strong>在你验证它的价值之前，先别急着让产品的产出和花费或者消耗的时间持平。在这个阶段，探索实现产品的另一种可行性方案也并不那么重要（因为谁知道我们还想要什么）。那是下一个阶段我们所要关注的。也不要假设产品存在改变的进去，避免过早的限制产品的发展。</li>
+</ul>
+</li>
+</ol>
+<h3 id="第三阶段：和解"><a href="#第三阶段：和解" class="headerlink" title="第三阶段：和解"></a>第三阶段：和解</h3><p>祝贺你，对于一部分人来讲，你的产品有了 “产品-市场”匹配。到了现在这个阶段，我们要在产品扩张到更多用户之前，重拾起之前被弃置不顾的限制。</p>
+<p>协调你的产品意味着···</p>
+<ol>
+<li><strong>在更广泛的生态系统中调整平衡。</strong>我们已经达到了。你的产品似乎很棒亟待推广并且营收可观。或者在你的努力下，让目标用户了解你们的产品，你发明了一种新的切入点，其他团队因为太小而忽略了它。或许你的应用体积增加了 20%，或许你们的产品实现了其他团队还在测试的功能，发布两款产品显然会让用户困惑。这个阶段会感到十分的艰难和没完没了，也伴随着大量的数据挖掘，加班和跨团队交流，但一定要记住的是，用户不会把你们公司当作一堆产品或者功能的集合，而是一个功能完整的体验。如果你们不能很好地妥协，产品会让用户觉得复杂和困惑。好消息是如果你紧随着上述的步骤直到现在，那你已经证实了你的产品对于一部分用户来讲是十分成功的，这是产品走向成功的要素。</li>
+<li><strong>要考虑产品是否对整个公司有根本的积极作用。</strong>新产品的作用应当是让整个蛋糕的规模变大，而不仅仅是你自己的那块儿，这十分重要。如果产品影响了应用中其他模块的活动，这些权衡对于用户在根本上来说是有价值的吗？这个产品开启了未来选择价值或者建立了一个可以一直发展的平台？如果不是，你要做的是重新进行评估而不是大力推广。</li>
+<li><strong>创造高质量的体验。</strong>因为让产品与市场匹配阶段意味着快速推进，你可能忽略了一些开发进程中需要细化的步骤。设计粗糙，按钮没有对齐，拼写错误，页面加载时间长，代码有 bug 等等。既然现在是在协调阶段，现在就该把这些事情做好。</li>
+</ol>
+<h3 id="第四阶段：增长"><a href="#第四阶段：增长" class="headerlink" title="第四阶段：增长"></a>第四阶段：增长</h3><p>产品增长意味着要去寻找哪些改变会让你的产品对于更多的新用户有价值，对于已经使用的用户更有价值。产品成长人人都想但是只有经过前三个阶段你才可以到达这个层级。因此，如何为你的漏斗带来更多的用户？</p>
+<p>一个成功的增长模型···</p>
+<ol>
+<li><strong>对于发展新的用户群有理论准备。</strong>接下来使用你们产品的 1000 位用户都是谁？还未使用你们的产品但肯定会从你们的产品中获益的是谁？为了让产品对于他们来说更有价值，你需要添加哪些功能点？用户数扩张的过程会让你感觉到仿佛在循环，就像回到了第一个阶段去想为新一波人达成产品市场匹配做更多的工作。</li>
+<li><strong>对于如何增加交互深度有理论准备。</strong>什么样的改变会让产品对于老用户来说更有价值？从用户第一次使用你的产品到成为日常用户，瀑布图看起来是什么样的？</li>
+<li><strong>持续检测漏斗的有效性。</strong>当你想要扩大进入漏斗转化的用户之前，确保你的漏斗是有效的。你有注意到在某一阶段已经上升的流失率了吗？</li>
+</ol>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/产品经理/" rel="tag"># 产品经理</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/01/08/hexo常用命令/" rel="next" title="hexo常用命令">
+                <i class="fa fa-chevron-left"></i> hexo常用命令
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Youngstack" />
+          <p class="site-author-name" itemprop="name">Youngstack</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一阶段：定义用户产出（People-Outcomes）"><span class="nav-number">1.</span> <span class="nav-text">第一阶段：定义用户产出（People Outcomes）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二阶段：让产品与市场匹配"><span class="nav-number">2.</span> <span class="nav-text">第二阶段：让产品与市场匹配</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第三阶段：和解"><span class="nav-number">3.</span> <span class="nav-text">第三阶段：和解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第四阶段：增长"><span class="nav-number">4.</span> <span class="nav-text">第四阶段：增长</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Youngstack</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
